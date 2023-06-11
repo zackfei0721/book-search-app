@@ -1,0 +1,1729 @@
+{
+    "kind": "books#volumes",
+    "totalItems": 1845,
+    "items": [
+      {
+        "kind": "books#volume",
+        "id": "uUIFCAAAQBAJ",
+        "etag": "NQ+it+Rxa/Q",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/uUIFCAAAQBAJ",
+        "volumeInfo": {
+          "title": "T-SQL Querying",
+          "authors": [
+            "Itzik Ben-Gan",
+            "Dejan Sarka",
+            "Adam Machanic",
+            "Kevin Farlee"
+          ],
+          "publisher": "Pearson Education",
+          "publishedDate": "2015",
+          "description": "T-SQL insiders help you tackle your toughest queries and query-tuning problems Squeeze maximum performance and efficiency from every T-SQL query you write or tune. Four leading experts take an in-depth look at T-SQL's internal architecture and offer advanced practical techniques for optimizing response time and resource usage. Emphasizing a correct understanding of the language and its foundations, the authors present unique solutions they have spent years developing and refining. All code and techniques are fully updated to reflect new T-SQL enhancements in Microsoft SQL Server 2014 and SQL Server 2012. Write faster, more efficient T-SQL code: Move from procedural programming to the language of sets and logic Master an efficient top-down tuning methodology Assess algorithmic complexity to predict performance Compare data aggregation techniques, including new grouping sets Efficiently perform data-analysis calculations Make the most of T-SQL's optimized bulk import tools Avoid date/time pitfalls that lead to buggy, poorly performing code Create optimized BI statistical queries without additional software Use programmable objects to accelerate queries Unlock major performance improvements with In-Memory OLTP Master useful and elegant approaches to manipulating graphs About This Book For experienced T-SQL practitioners Includes coverage updated from Inside Microsoft SQL Server 2008 T-SQL Querying and Inside Microsoft SQL Server 2008 T-SQL Programming Valuable to developers, DBAs, BI professionals, and data scientists Covers many MCSE 70-464 and MCSA/MCSE 70-461 exam topics",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9780735685048"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "0735685045"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": true
+          },
+          "pageCount": 865,
+          "printType": "BOOK",
+          "categories": [
+            "Computers"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "preview-1.0.0",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=uUIFCAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=uUIFCAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com/books?id=uUIFCAAAQBAJ&printsec=frontcover&dq=query&hl=&cd=1&source=gbs_api",
+          "infoLink": "http://books.google.com/books?id=uUIFCAAAQBAJ&dq=query&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/T_SQL_Querying.html?hl=&id=uUIFCAAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "US",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "US",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com/books/download/T_SQL_Querying-sample-pdf.acsm?id=uUIFCAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=uUIFCAAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "Write faster, more efficient T-SQL code: Move from procedural programming to the language of sets and logic Master an efficient top-down tuning methodology Assess algorithmic complexity to predict performance Compare data aggregation ..."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "iKs_EAAAQBAJ",
+        "etag": "jCm6qzc3Qf0",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/iKs_EAAAQBAJ",
+        "volumeInfo": {
+          "title": "Mastering Power Query in Power BI and Excel",
+          "subtitle": "Learning real-world Power Query and M Techniques for a better data analysis",
+          "authors": [
+            "Reza Rad",
+            "Leila Etaati"
+          ],
+          "publisher": "RADACAD Systems Limited",
+          "publishedDate": "2021-08-27",
+          "description": "Any data analytics solution requires data population and preparation. With the rise of data analytics solutions these years, the need for this data preparation becomes even more essential. Power BI is a helpful data analytics tool that is used worldwide by many users. As a Power BI (or Microsoft BI) developer, it is essential to learn how to prepare the data in the right shape and format needed. You need to learn how to clean the data and build it in a structure that can be modeled easily and used high performant for visualization. Data preparation and transformation is the backend work. If you consider building a BI system as going to a restaurant and ordering food. The visualization is the food you see on the table nicely presented. The quality, the taste, and everything else come from the hard work in the kitchen. The part that you don’t see or the backend in the world of Power BI is Power Query. You may already be familiar with other data preparation and transformation technologies, such as T-SQL, SSIS, Azure Data Factory, Informatica, etc. Power Query is a data transformation engine capable of preparing the data in the format you need. The good news is that to learn Power Query; you don’t need to know programming. Power Query is for citizen data engineers. However, this doesn’t mean that Power Query is not capable of performing advanced transformation. Power Query exists in many Microsoft tools and services such as Power BI, Excel, Dataflows, Power Automate, Azure Data Factory, etc. Through the years, this engine became more powerful. These days, we can say this is essential learning for anyone who wants to do data analysis with Microsoft technology to learn Power Query and master it. We have been working with Power Query since the very early release of that in 2013, named Data Explorer, and wrote blog articles and published videos about it. The number of articles we published under this subject easily exceeds hundreds. Through those articles, some of the fundamentals and key learnings of Power Query are explained. We thought it is good to compile some of them in a book series. A good analytics solution combines a good data model, good data preparation, and good analytics and calculations. Reza has written another book about the Basics of modeling in Power BI and a book on Power BI DAX Simplified. This book is covering the data preparation and transformations aspects of it. This book series is for you if you are building a Power BI solution. Even if you are just visualizing the data, preparation and transformations are an essential part of analytics. You do need to have the cleaned and prepared data ready before visualizing it. This book is compiled into a series of two books, which will be followed by a third book later; Getting started with Power Query in Power BI and Excel (already available to be purchased separately) Mastering Power Query in Power BI and Excel (This book) Power Query dataflows (will be published later) This book deeps dive into real-world challenges of data transformation. It starts with combining data sources and continues with aggregations and fuzzy operations. The book covers advanced usage of Power Query in scenarios such as error handling and exception reports, custom functions and parameters, advanced analytics, and some helpful table and list functions. The book continues with some performance tuning tips and it also explains the Power Query formula language (M) and the structure of it and how to use it in practical solutions. Although this book is written for Power BI and all the examples are presented using the Power BI. However, the examples can be easily applied to Excel, Dataflows, and other tools and services using Power Query.",
+          "readingModes": {
+            "text": false,
+            "image": true
+          },
+          "pageCount": 417,
+          "printType": "BOOK",
+          "categories": [
+            "Computers"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": true,
+          "contentVersion": "0.0.1.0.preview.1",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=iKs_EAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=iKs_EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com/books?id=iKs_EAAAQBAJ&printsec=frontcover&dq=query&hl=&cd=2&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=iKs_EAAAQBAJ&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=iKs_EAAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "US",
+          "saleability": "FOR_SALE",
+          "isEbook": true,
+          "listPrice": {
+            "amount": 9.99,
+            "currencyCode": "USD"
+          },
+          "retailPrice": {
+            "amount": 9.99,
+            "currencyCode": "USD"
+          },
+          "buyLink": "https://play.google.com/store/books/details?id=iKs_EAAAQBAJ&rdid=book-iKs_EAAAQBAJ&rdot=1&source=gbs_api",
+          "offers": [
+            {
+              "finskyOfferType": 1,
+              "listPrice": {
+                "amountInMicros": 9990000,
+                "currencyCode": "USD"
+              },
+              "retailPrice": {
+                "amountInMicros": 9990000,
+                "currencyCode": "USD"
+              },
+              "giftable": true
+            }
+          ]
+        },
+        "accessInfo": {
+          "country": "US",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com/books/download/Mastering_Power_Query_in_Power_BI_and_Ex-sample-pdf.acsm?id=iKs_EAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=iKs_EAAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "This book is covering the data preparation and transformations aspects of it. This book series is for you if you are building a Power BI solution."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "rXDMoAEACAAJ",
+        "etag": "0jH3ebhn2yM",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/rXDMoAEACAAJ",
+        "volumeInfo": {
+          "title": "Power Query for Power BI and Excel",
+          "authors": [
+            "Christopher Webb",
+            "Crossjoin Consulting Limited"
+          ],
+          "publisher": "Apress",
+          "publishedDate": "2014-06-26",
+          "description": "Power Query for Power BI and Excel is a book for people who are tired of copying and pasting data into Excel worksheets. Power Query, part of the Microsoft Power BI suite, is a tool that automates the process of getting data into Excel and will save you hours of dull, repetitive, and error-prone work! Power Query makes it easy to extract data from many different data sources, filter that data, aggregate it, clean it and perform calculations on it, finally loading that data into either your worksheet or directly into the new Excel 2013 Data Model used by Power Pivot. This concise, practical book provides a complete guide to Power Query and how to use it to solve all of your Excel data-loading problems. Power Query for Power BI and Excel goes well beyond the surface of what Power Query can do. The book goes deep into the underlying M language, showing you how to do amazing things that aren’t going to be possible from just the GUI interface that is covered in most other books. You’ll have full command of the GUI, and you’ll be able to drop into the M language to go beyond what the GUI provides. The depth in this book makes it a must-have item for anyone who is pushing Power BI and Excel to their limits in the pursuit of business intelligence from data analysis. Teaches the basics of using Power Query to load data into Excel Helps you solve common, data-related problems with Power Query Shows how to write your own solutions in the powerful M language",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_10",
+              "identifier": "1430266910"
+            },
+            {
+              "type": "ISBN_13",
+              "identifier": "9781430266914"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": false
+          },
+          "pageCount": 0,
+          "printType": "BOOK",
+          "categories": [
+            "Computers"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "preview-1.0.0",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=rXDMoAEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=rXDMoAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com/books?id=rXDMoAEACAAJ&dq=query&hl=&cd=3&source=gbs_api",
+          "infoLink": "http://books.google.com/books?id=rXDMoAEACAAJ&dq=query&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/Power_Query_for_Power_BI_and_Excel.html?hl=&id=rXDMoAEACAAJ"
+        },
+        "saleInfo": {
+          "country": "US",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "US",
+          "viewability": "NO_PAGES",
+          "embeddable": false,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=rXDMoAEACAAJ&hl=&source=gbs_api",
+          "accessViewStatus": "NONE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "This concise, practical book provides a complete guide to Power Query and how to use it to solve all of your Excel data-loading problems. Power Query for Power BI and Excel goes well beyond the surface of what Power Query can do."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "tiBjDwAAQBAJ",
+        "etag": "trvodpYkvCA",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/tiBjDwAAQBAJ",
+        "volumeInfo": {
+          "title": "The Writer's Digest Guide To Query Letters",
+          "authors": [
+            "Wendy Burt-Thomas"
+          ],
+          "publisher": "Penguin",
+          "publishedDate": "2008-12-05",
+          "description": "Make That Crucial, Positive First Impression Anyone who's researched the marketplace knows: The path to publication begins with your query letter. If your query is weak, unfocused, or uninspired, an editor or agent won't even bother to request your article, novel manuscript, or nonfiction book proposal. But a well-crafted, compelling query sent to the right editor or agent is an essential sales tool for fiction writers and the most effective way for nonfiction writers to pre-sell your idea. In this book, professional freelance writer and magazine editor Wendy Burt-Thomas shares practical advice on how to craft persuasive letters that connect with editors and agents and ultimately generate sales for you. You'll learn how to: • Conduct targeted research to find suitable editors and agents • Hook an editor with a tantalizing lead and shape a summary that compels editors to buy • Select the strongest slant for your book or article • Use research and interview shortcuts that keep your query prep profitable • Make your query rejection-proof by weeding out subtle mistakes that can sabotage your project • Communicate your author platform and sell yourself as the best writer for the subject Complete with dozens of sample queries–some that landed article assignments, agents, or book deals, and others that never stood a chance–this book offers you a comprehensive strategy for presenting your writing ideas in a way that will increase your chances of publication. Though the title may lead some to believe it's strictly to be shelved as a reference manual, The Writer's Digest Guide to Query Letters is a smooth read from cover to cover.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9781599634487"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "1599634481"
+            }
+          ],
+          "readingModes": {
+            "text": true,
+            "image": false
+          },
+          "pageCount": 240,
+          "printType": "BOOK",
+          "categories": [
+            "Language Arts & Disciplines"
+          ],
+          "averageRating": 4,
+          "ratingsCount": 2,
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "1.3.3.0.preview.2",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=tiBjDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=tiBjDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com/books?id=tiBjDwAAQBAJ&printsec=frontcover&dq=query&hl=&cd=4&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=tiBjDwAAQBAJ&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=tiBjDwAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "US",
+          "saleability": "FOR_SALE",
+          "isEbook": true,
+          "listPrice": {
+            "amount": 10.99,
+            "currencyCode": "USD"
+          },
+          "retailPrice": {
+            "amount": 10.99,
+            "currencyCode": "USD"
+          },
+          "buyLink": "https://play.google.com/store/books/details?id=tiBjDwAAQBAJ&rdid=book-tiBjDwAAQBAJ&rdot=1&source=gbs_api",
+          "offers": [
+            {
+              "finskyOfferType": 1,
+              "listPrice": {
+                "amountInMicros": 10990000,
+                "currencyCode": "USD"
+              },
+              "retailPrice": {
+                "amountInMicros": 10990000,
+                "currencyCode": "USD"
+              },
+              "giftable": true
+            }
+          ]
+        },
+        "accessInfo": {
+          "country": "US",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com/books/download/The_Writer_s_Digest_Guide_To_Query_Lette-sample-epub.acsm?id=tiBjDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=tiBjDwAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "In this book, professional freelance writer and magazine editor Wendy Burt-Thomas shares practical advice on how to craft persuasive letters that connect with editors and agents and ultimately generate sales for you."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "VOiIDwAAQBAJ",
+        "etag": "dz2vJGkg0JE",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/VOiIDwAAQBAJ",
+        "volumeInfo": {
+          "title": "Cleaning Excel Data With Power Query Straight to the Point",
+          "authors": [
+            "Oz du Soleil"
+          ],
+          "publisher": "Tickling Keys, Inc.",
+          "publishedDate": "2019-03-01",
+          "description": "Author Oz Du Soleil's area of frustration with Excel is cleaning data. From his earliest days with Excel, he has found himself constantly needing to fix names that are ALLCAPS, peel addresses away from phone numbers, and fixing all the many other things that prevent data from being useful. In this intro to Power Query, Oz shows you five core techniques in Excel Power Query: Splitting data, Filling blanks, Joining data sets, grouping and summarizing, and adding columns using Column From Examples.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9781615471492"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "1615471499"
+            }
+          ],
+          "readingModes": {
+            "text": true,
+            "image": false
+          },
+          "pageCount": 52,
+          "printType": "BOOK",
+          "categories": [
+            "Computers"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": true,
+          "contentVersion": "1.1.1.0.preview.2",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=VOiIDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=VOiIDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com/books?id=VOiIDwAAQBAJ&printsec=frontcover&dq=query&hl=&cd=5&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=VOiIDwAAQBAJ&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=VOiIDwAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "US",
+          "saleability": "FOR_SALE",
+          "isEbook": true,
+          "listPrice": {
+            "amount": 4.95,
+            "currencyCode": "USD"
+          },
+          "retailPrice": {
+            "amount": 4.95,
+            "currencyCode": "USD"
+          },
+          "buyLink": "https://play.google.com/store/books/details?id=VOiIDwAAQBAJ&rdid=book-VOiIDwAAQBAJ&rdot=1&source=gbs_api",
+          "offers": [
+            {
+              "finskyOfferType": 1,
+              "listPrice": {
+                "amountInMicros": 4950000,
+                "currencyCode": "USD"
+              },
+              "retailPrice": {
+                "amountInMicros": 4950000,
+                "currencyCode": "USD"
+              },
+              "giftable": true
+            }
+          ]
+        },
+        "accessInfo": {
+          "country": "US",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com/books/download/Cleaning_Excel_Data_With_Power_Query_Str-sample-epub.acsm?id=VOiIDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=VOiIDwAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "Author Oz Du Soleil&#39;s area of frustration with Excel is cleaning data."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "gzmDswEACAAJ",
+        "etag": "aKqV1+7lJSU",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/gzmDswEACAAJ",
+        "volumeInfo": {
+          "title": "Collect, Transform and Combine Data Using Power Bi and Power Query in Excel",
+          "authors": [
+            "Gil Raviv"
+          ],
+          "publisher": "Pearson Professional",
+          "publishedDate": "2018-04-28",
+          "description": "Did you know that there is a technology inside Excel, and Power BI, that allows you to create magic in your data, avoid repetitive manual work, and save you time and money? Using Excel and Power BI, you can: Save time by eliminating the pain of copying and pasting data into workbooks and then manually cleaning that data. Gain productivity by properly preparing data yourself, rather than relying on others to do it. Gain effiiciency by reducing the time it takes to prepare data for analysis, and make informed decisions more quickly. With the data connectivity and transformative technology found in Excel and Power BI, users with basic Excel skills import data and then easily reshape and cleanse that data, using simple intuitive user interfaces. Known as \"Get & Transform\" in Excel 2016, as the \"Power Query\" separate add-in in Excel 2013 and 2010, and included in Power BI, you'll use this technology to tackle common data challenges, resolving them with simple mouse clicks and lightweight formula editing. With your new data transformation skills acquired through this book, you will be able to create an automated transformation of virtually any type of data set to mine its hidden insights.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_10",
+              "identifier": "1509307958"
+            },
+            {
+              "type": "ISBN_13",
+              "identifier": "9781509307951"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": false
+          },
+          "pageCount": 368,
+          "printType": "BOOK",
+          "categories": [
+            "Computers"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "preview-1.0.0",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=gzmDswEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=gzmDswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com/books?id=gzmDswEACAAJ&dq=query&hl=&cd=6&source=gbs_api",
+          "infoLink": "http://books.google.com/books?id=gzmDswEACAAJ&dq=query&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/Collect_Transform_and_Combine_Data_Using.html?hl=&id=gzmDswEACAAJ"
+        },
+        "saleInfo": {
+          "country": "US",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "US",
+          "viewability": "NO_PAGES",
+          "embeddable": false,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=gzmDswEACAAJ&hl=&source=gbs_api",
+          "accessViewStatus": "NONE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "Power Query is embedded in Excel, Power BI, and other Microsoft products, and leading Power Query expert Gil Raviv will help you make the most of it."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "dkqzDwAAQBAJ",
+        "etag": "j7KT81Q2K6M",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/dkqzDwAAQBAJ",
+        "volumeInfo": {
+          "title": "Query Store for SQL Server 2019",
+          "subtitle": "Identify and Fix Poorly Performing Queries",
+          "authors": [
+            "Tracy Boggiano",
+            "Grant Fritchey"
+          ],
+          "publisher": "Apress",
+          "publishedDate": "2019-10-02",
+          "description": "Apply the new Query Store feature to identify and fix poorly performing queries in SQL Server. Query Store is an important and recent feature in SQL Server that provides insight into the details of query execution and how that execution has changed over time. Query Store helps to identify queries that aren’t performing well, or that have regressed in their performance. Query Store provides detailed information such as wait stats that you need to resolve root causes, and it allows you to force the use of a known good execution plan. With SQL Server 2017 and later you can automate the correction of regressions in performance. Query Store for SQL Server 2019 helps you protect your database’s performance during upgrades of applications or version of SQL Server. The book provides fundamental information on how Query Store works and best practices for implementation and use. You will learn to run and interpret built-in reports, configure automatic plan correction, and troubleshoot queries using Query Store when needed. Query Store for SQL Server 2019 helps you master Query Store and bring value to your organization through consistent query execution times and automate correction of regressions. What You'll LearnApply best practices in implementing Query Store on production servers Detect and correct regressions in query performanceLower the risk of performance degradation following an upgradeUse tools and techniques to get the most from Query StoreAutomate regression correction and other uses of Query Store Who This Book Is For SQL Server developers and administrators responsible for query performance on SQL Server. Anyone responsible for identifying poorly performing queries will be able to use Query Store to find these queries and resolve the underlying issues.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9781484250044"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "1484250044"
+            }
+          ],
+          "readingModes": {
+            "text": true,
+            "image": true
+          },
+          "pageCount": 224,
+          "printType": "BOOK",
+          "categories": [
+            "Computers"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "1.1.1.0.preview.3",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=dkqzDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=dkqzDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com/books?id=dkqzDwAAQBAJ&printsec=frontcover&dq=query&hl=&cd=7&source=gbs_api",
+          "infoLink": "http://books.google.com/books?id=dkqzDwAAQBAJ&dq=query&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/Query_Store_for_SQL_Server_2019.html?hl=&id=dkqzDwAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "US",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "US",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com/books/download/Query_Store_for_SQL_Server_2019-sample-epub.acsm?id=dkqzDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com/books/download/Query_Store_for_SQL_Server_2019-sample-pdf.acsm?id=dkqzDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=dkqzDwAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "What You&#39;ll LearnApply best practices in implementing Query Store on production servers Detect and correct regressions in query performanceLower the risk of performance degradation following an upgradeUse tools and techniques to get the ..."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "RzpIEAAAQBAJ",
+        "etag": "PdDDsUuj2YM",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/RzpIEAAAQBAJ",
+        "volumeInfo": {
+          "title": "Serverless Analytics with Amazon Athena",
+          "subtitle": "Query structured, unstructured, or semi-structured data in seconds without setting up any infrastructure",
+          "authors": [
+            "Anthony Virtuoso",
+            "Mert Turkay Hocanin",
+            "Aaron Wishnick",
+            "Rahul Pathak"
+          ],
+          "publisher": "Packt Publishing Ltd",
+          "publishedDate": "2021-11-19",
+          "description": "Get more from your data with Amazon Athena's ease-of-use, interactive performance, and pay-per-query pricing Key FeaturesExplore the promising capabilities of Amazon Athena and Athena's Query Federation SDKUse Athena to prepare data for common machine learning activitiesCover best practices for setting up connectivity between your application and Athena and security considerationsBook Description Amazon Athena is an interactive query service that makes it easy to analyze data in Amazon S3 using SQL, without needing to manage any infrastructure. This book begins with an overview of the serverless analytics experience offered by Athena and teaches you how to build and tune an S3 Data Lake using Athena, including how to structure your tables using open-source file formats like Parquet. You'll learn how to build, secure, and connect to a data lake with Athena and Lake Formation. Next, you'll cover key tasks such as ad hoc data analysis, working with ETL pipelines, monitoring and alerting KPI breaches using CloudWatch Metrics, running customizable connectors with AWS Lambda, and more. Moving on, you'll work through easy integrations, troubleshooting and tuning common Athena issues, and the most common reasons for query failure. You will also review tips to help diagnose and correct failing queries in your pursuit of operational excellence. Finally, you'll explore advanced concepts such as Athena Query Federation and Athena ML to generate powerful insights without needing to touch a single server. By the end of this book, you'll be able to build and use a data lake with Amazon Athena to add data-driven features to your app and perform the kind of ad hoc data analysis that often precedes many of today's ML modeling exercises. What you will learnSecure and manage the cost of querying your dataUse Athena ML and User Defined Functions (UDFs) to add advanced features to your reportsWrite your own Athena Connector to integrate with a custom data sourceDiscover your datasets on S3 using AWS Glue CrawlersIntegrate Amazon Athena into your applicationsSetup Identity and Access Management (IAM) policies to limit access to tables and databases in Glue Data CatalogAdd an Amazon SageMaker Notebook to your Athena queriesGet to grips with using Athena for ETL pipelinesWho this book is for Business intelligence (BI) analysts, application developers, and system administrators who are looking to generate insights from an ever-growing sea of data while controlling costs and limiting operational burden, will find this book helpful. Basic SQL knowledge is expected to make the most out of this book.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9781800567863"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "1800567863"
+            }
+          ],
+          "readingModes": {
+            "text": true,
+            "image": true
+          },
+          "pageCount": 438,
+          "printType": "BOOK",
+          "categories": [
+            "Computers"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "1.1.1.0.preview.3",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=RzpIEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=RzpIEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com/books?id=RzpIEAAAQBAJ&printsec=frontcover&dq=query&hl=&cd=8&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=RzpIEAAAQBAJ&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=RzpIEAAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "US",
+          "saleability": "FOR_SALE",
+          "isEbook": true,
+          "listPrice": {
+            "amount": 43.99,
+            "currencyCode": "USD"
+          },
+          "retailPrice": {
+            "amount": 31.72,
+            "currencyCode": "USD"
+          },
+          "buyLink": "https://play.google.com/store/books/details?id=RzpIEAAAQBAJ&rdid=book-RzpIEAAAQBAJ&rdot=1&source=gbs_api",
+          "offers": [
+            {
+              "finskyOfferType": 1,
+              "listPrice": {
+                "amountInMicros": 43990000,
+                "currencyCode": "USD"
+              },
+              "retailPrice": {
+                "amountInMicros": 31720000,
+                "currencyCode": "USD"
+              },
+              "giftable": true
+            }
+          ]
+        },
+        "accessInfo": {
+          "country": "US",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": true
+          },
+          "pdf": {
+            "isAvailable": true
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=RzpIEAAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "This book begins with an overview of the serverless analytics experience offered by Athena and teaches you how to build and tune an S3 Data Lake using Athena, including how to structure your tables using open-source file formats like ..."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "74lyEAAAQBAJ",
+        "etag": "ksGM4N9f31s",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/74lyEAAAQBAJ",
+        "volumeInfo": {
+          "title": "Estimating the Query Difficulty for Information Retrieval",
+          "authors": [
+            "David Carmel",
+            "Elad Yom-Tov"
+          ],
+          "publisher": "Springer Nature",
+          "publishedDate": "2022-05-31",
+          "description": "Many information retrieval (IR) systems suffer from a radical variance in performance when responding to users' queries. Even for systems that succeed very well on average, the quality of results returned for some of the queries is poor. Thus, it is desirable that IR systems will be able to identify \"difficult\" queries so they can be handled properly. Understanding why some queries are inherently more difficult than others is essential for IR, and a good answer to this important question will help search engines to reduce the variance in performance, hence better servicing their customer needs. Estimating the query difficulty is an attempt to quantify the quality of search results retrieved for a query from a given collection of documents. This book discusses the reasons that cause search engines to fail for some of the queries, and then reviews recent approaches for estimating query difficulty in the IR field. It then describes a common methodology for evaluating the prediction quality of those estimators, and experiments with some of the predictors applied by various IR methods over several TREC benchmarks. Finally, it discusses potential applications that can utilize query difficulty estimators by handling each query individually and selectively, based upon its estimated difficulty. Table of Contents: Introduction - The Robustness Problem of Information Retrieval / Basic Concepts / Query Performance Prediction Methods / Pre-Retrieval Prediction Methods / Post-Retrieval Prediction Methods / Combining Predictors / A General Model for Query Difficulty / Applications of Query Difficulty Estimation / Summary and Conclusions",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9783031022722"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "3031022726"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": true
+          },
+          "pageCount": 77,
+          "printType": "BOOK",
+          "categories": [
+            "Computers"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "0.0.1.0.preview.1",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=74lyEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=74lyEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com/books?id=74lyEAAAQBAJ&printsec=frontcover&dq=query&hl=&cd=9&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=74lyEAAAQBAJ&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=74lyEAAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "US",
+          "saleability": "FOR_SALE_AND_RENTAL",
+          "isEbook": true,
+          "listPrice": {
+            "amount": 29.99,
+            "currencyCode": "USD"
+          },
+          "retailPrice": {
+            "amount": 16.19,
+            "currencyCode": "USD"
+          },
+          "buyLink": "https://play.google.com/store/books/details?id=74lyEAAAQBAJ&rdid=book-74lyEAAAQBAJ&rdot=1&source=gbs_api",
+          "offers": [
+            {
+              "finskyOfferType": 1,
+              "listPrice": {
+                "amountInMicros": 29990000,
+                "currencyCode": "USD"
+              },
+              "retailPrice": {
+                "amountInMicros": 16190000,
+                "currencyCode": "USD"
+              },
+              "giftable": true
+            },
+            {
+              "finskyOfferType": 3,
+              "listPrice": {
+                "amountInMicros": 10500000,
+                "currencyCode": "USD"
+              },
+              "retailPrice": {
+                "amountInMicros": 9140000,
+                "currencyCode": "USD"
+              },
+              "rentalDuration": {
+                "unit": "DAY",
+                "count": 90
+              }
+            }
+          ]
+        },
+        "accessInfo": {
+          "country": "US",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com/books/download/Estimating_the_Query_Difficulty_for_Info-sample-pdf.acsm?id=74lyEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=74lyEAAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "This book discusses the reasons that cause search engines to fail for some of the queries, and then reviews recent approaches for estimating query difficulty in the IR field."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "BYqbEAAAQBAJ",
+        "etag": "DZBSH72nrQs",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/BYqbEAAAQBAJ",
+        "volumeInfo": {
+          "title": "Answering Queries Using Views",
+          "authors": [
+            "Foto Afrati",
+            "Rada Chirkova"
+          ],
+          "publisher": "Springer Nature",
+          "publishedDate": "2022-11-10",
+          "description": "The topic of using views to answer queries has been popular for a few decades now, as it cuts across domains such as query optimization, information integration, data warehousing, website design, and, recently, database-as-a-service and data placement in cloud systems. This book assembles foundational work on answering queries using views in a self-contained manner, with an effort to choose material that constitutes the backbone of the research. It presents efficient algorithms and covers the following problems: query containment; rewriting queries using views in various logical languages; equivalent rewritings and maximally contained rewritings; and computing certain answers in the data-integration and data-exchange settings. Query languages that are considered are fragments of SQL, in particular, select-project-join queries, also called conjunctive queries (with or without arithmetic comparisons or negation), and aggregate SQL queries.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9783031018596"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "3031018591"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": true
+          },
+          "pageCount": 229,
+          "printType": "BOOK",
+          "categories": [
+            "Computers"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "0.1.0.0.preview.1",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=BYqbEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=BYqbEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com/books?id=BYqbEAAAQBAJ&printsec=frontcover&dq=query&hl=&cd=10&source=gbs_api",
+          "infoLink": "http://books.google.com/books?id=BYqbEAAAQBAJ&dq=query&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/Answering_Queries_Using_Views.html?hl=&id=BYqbEAAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "US",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "US",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com/books/download/Answering_Queries_Using_Views-sample-pdf.acsm?id=BYqbEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=BYqbEAAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "This book assembles foundational work on answering queries using views in a self-contained manner, with an effort to choose material that constitutes the backbone of the research."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "G81PCgAAQBAJ",
+        "etag": "xPS8t6wF774",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/G81PCgAAQBAJ",
+        "volumeInfo": {
+          "title": "Structured Search for Big Data",
+          "subtitle": "From Keywords to Key-objects",
+          "authors": [
+            "Mikhail Gilula"
+          ],
+          "publisher": "Morgan Kaufmann",
+          "publishedDate": "2015-08-26",
+          "description": "The WWW era made billions of people dramatically dependent on the progress of data technologies, out of which Internet search and Big Data are arguably the most notable. Structured Search paradigm connects them via a fundamental concept of key-objects evolving out of keywords as the units of search. The key-object data model and KeySQL revamp the data independence principle making it applicable for Big Data and complement NoSQL with full-blown structured querying functionality. The ultimate goal is extracting Big Information from the Big Data. As a Big Data Consultant, Mikhail Gilula combines academic background with 20 years of industry experience in the database and data warehousing technologies working as a Sr. Data Architect for Teradata, Alcatel-Lucent, and PayPal, among others. He has authored three books, including The Set Model for Database and Information Systems and holds four US Patents in Structured Search and Data Integration. Conceptualizes structured search as a technology for querying multiple data sources in an independent and scalable manner. Explains how NoSQL and KeySQL complement each other and serve different needs with respect to big data Shows the place of structured search in the internet evolution and describes its implementations including the real-time structured internet search",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9780128046524"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "012804652X"
+            }
+          ],
+          "readingModes": {
+            "text": true,
+            "image": true
+          },
+          "pageCount": 114,
+          "printType": "BOOK",
+          "categories": [
+            "Computers"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "1.2.2.0.preview.3",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=G81PCgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=G81PCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com/books?id=G81PCgAAQBAJ&printsec=frontcover&dq=query&hl=&cd=11&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=G81PCgAAQBAJ&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=G81PCgAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "US",
+          "saleability": "FOR_SALE",
+          "isEbook": true,
+          "listPrice": {
+            "amount": 29.95,
+            "currencyCode": "USD"
+          },
+          "retailPrice": {
+            "amount": 16.17,
+            "currencyCode": "USD"
+          },
+          "buyLink": "https://play.google.com/store/books/details?id=G81PCgAAQBAJ&rdid=book-G81PCgAAQBAJ&rdot=1&source=gbs_api",
+          "offers": [
+            {
+              "finskyOfferType": 1,
+              "listPrice": {
+                "amountInMicros": 29950000,
+                "currencyCode": "USD"
+              },
+              "retailPrice": {
+                "amountInMicros": 16170000,
+                "currencyCode": "USD"
+              },
+              "giftable": true
+            }
+          ]
+        },
+        "accessInfo": {
+          "country": "US",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com/books/download/Structured_Search_for_Big_Data-sample-epub.acsm?id=G81PCgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com/books/download/Structured_Search_for_Big_Data-sample-pdf.acsm?id=G81PCgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=G81PCgAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "As a Big Data Consultant, Mikhail Gilula combines academic background with 20 years of industry experience in the database and data warehousing technologies working as a Sr. Data Architect for Teradata, Alcatel-Lucent, and PayPal, among ..."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "eEnVBwAAQBAJ",
+        "etag": "3eRmQBB7j14",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/eEnVBwAAQBAJ",
+        "volumeInfo": {
+          "title": "The TSQL2 Temporal Query Language",
+          "authors": [
+            "Richard T. Snodgrass"
+          ],
+          "publisher": "Springer Science & Business Media",
+          "publishedDate": "2012-12-06",
+          "description": "Temporal databases have been an active research topic for at least fifteen years. During this time, several dozen temporal query languages have been proposed. Many within the temporal database research community perceived that the time had come to consolidate approaches to temporal data models and calculus based query languages, to achieve a consensus query language and associated data model upon which future research can be based. While there were many query language proposals, with a diversity of language and modeling constructs, common themes kept resurfacing. However, the community was quite frag mented, with each research project being based on a particular and different set of assumptions and approaches. Often these assumptions were not germane to the research per se, but were made simply because the research required a data model or query language with certain characteristics, with the partic ular one chosen rather arbitrarily. It would be better in such circumstances for research projects to choose the same language. Unfortunately, no existing language had attracted a following large enough to become the one of choice. In April, 1992 Richard Snodgrass circulated a white paper that proposed that a temporal extension to SQL be produced by the research community. Shortly thereafter, the temporal database community organized the \"ARPA/NSF In ternational Workshop on an Infrastructure for Temporal Databases,\" which was held in Arlington, TX, in June, 1993.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9781461522898"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "1461522897"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": true
+          },
+          "pageCount": 674,
+          "printType": "BOOK",
+          "categories": [
+            "Computers"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "preview-1.0.0",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=eEnVBwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=eEnVBwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com/books?id=eEnVBwAAQBAJ&printsec=frontcover&dq=query&hl=&cd=12&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=eEnVBwAAQBAJ&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=eEnVBwAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "US",
+          "saleability": "FOR_SALE_AND_RENTAL",
+          "isEbook": true,
+          "listPrice": {
+            "amount": 319,
+            "currencyCode": "USD"
+          },
+          "retailPrice": {
+            "amount": 255.2,
+            "currencyCode": "USD"
+          },
+          "buyLink": "https://play.google.com/store/books/details?id=eEnVBwAAQBAJ&rdid=book-eEnVBwAAQBAJ&rdot=1&source=gbs_api",
+          "offers": [
+            {
+              "finskyOfferType": 1,
+              "listPrice": {
+                "amountInMicros": 319000000,
+                "currencyCode": "USD"
+              },
+              "retailPrice": {
+                "amountInMicros": 255200000,
+                "currencyCode": "USD"
+              },
+              "giftable": true
+            },
+            {
+              "finskyOfferType": 3,
+              "listPrice": {
+                "amountInMicros": 111650000,
+                "currencyCode": "USD"
+              },
+              "retailPrice": {
+                "amountInMicros": 97140000,
+                "currencyCode": "USD"
+              },
+              "rentalDuration": {
+                "unit": "DAY",
+                "count": 90
+              }
+            }
+          ]
+        },
+        "accessInfo": {
+          "country": "US",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com/books/download/The_TSQL2_Temporal_Query_Language-sample-pdf.acsm?id=eEnVBwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=eEnVBwAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "Temporal databases have been an active research topic for at least fifteen years. During this time, several dozen temporal query languages have been proposed."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "KSfXDwAAQBAJ",
+        "etag": "84DHOC7TcdM",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/KSfXDwAAQBAJ",
+        "volumeInfo": {
+          "title": "MySQL 8 Query Performance Tuning",
+          "subtitle": "A Systematic Method for Improving Execution Speeds",
+          "authors": [
+            "Jesper Wisborg Krogh"
+          ],
+          "publisher": "Apress",
+          "publishedDate": "2020-03-16",
+          "description": "Identify, analyze, and improve poorly performing queries that damage user experience and lead to lost revenue for your business. This book will help you make query tuning an integral part of your daily routine through a multi-step process that includes monitoring of execution times, identifying candidate queries for optimization, analyzing their current performance, and improving them to deliver results faster and with less overhead. Author Jesper Krogh systematically discusses each of these steps along with the data sources and the tools used to perform them. MySQL 8 Query Performance Tuning aims to help you improve query performance using a wide range of strategies. You will know how to analyze queries using both the traditional EXPLAIN command as well as the new EXPLAIN ANALYZE tool. You also will see how to use the Visual Explain feature to provide a visually-oriented view of an execution plan. Coverage of indexes includes indexing strategies and index statistics, and you will learn how histograms can be used to provide input on skewed data distributions that the optimizer can use to improve query performance. You will learn about locks, and how to investigate locking issues. And you will come away with an understanding of how the MySQL optimizer works, including the new hash join algorithm, and how to change the optimizer’s behavior when needed to deliver faster execution times. You will gain the tools and skills needed to delight application users and to squeeze the most value from corporate computing resources. What You Will LearnMonitor query performance to identify poor performersChoose queries to optimize that will provide the greatest gainAnalyze queries using tools such as EXPLAIN ANALYZE and Visual ExplainImprove slow queries through a wide range of strategiesProperly deploy indexes and histograms to aid in creating fast execution plansUnderstand and analyze locks to resolve contention and increase throughput Who This Book Is For Database administrators and SQL developers who are familiar with MySQL and need to participate in query tuning. While some experience with MySQL is required, no prior knowledge of query performance tuning is needed.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9781484255841"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "1484255844"
+            }
+          ],
+          "readingModes": {
+            "text": true,
+            "image": true
+          },
+          "pageCount": 974,
+          "printType": "BOOK",
+          "categories": [
+            "Computers"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "1.1.1.0.preview.3",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=KSfXDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=KSfXDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com/books?id=KSfXDwAAQBAJ&printsec=frontcover&dq=query&hl=&cd=13&source=gbs_api",
+          "infoLink": "http://books.google.com/books?id=KSfXDwAAQBAJ&dq=query&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/MySQL_8_Query_Performance_Tuning.html?hl=&id=KSfXDwAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "US",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "US",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com/books/download/MySQL_8_Query_Performance_Tuning-sample-epub.acsm?id=KSfXDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com/books/download/MySQL_8_Query_Performance_Tuning-sample-pdf.acsm?id=KSfXDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=KSfXDwAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "This book will help you make query tuning an integral part of your daily routine through a multi-step process that includes monitoring of execution times, identifying candidate queries for optimization, analyzing their current performance, ..."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "ibwPvnxHF6AC",
+        "etag": "btJ9ZUO//3E",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/ibwPvnxHF6AC",
+        "volumeInfo": {
+          "title": "Sell Your Book, Script Or Column",
+          "subtitle": "How to Write a Winning Query and Make a Winning Pitch",
+          "authors": [
+            "Gini Graham Scott"
+          ],
+          "publisher": "iUniverse",
+          "publishedDate": "2007-06",
+          "description": "However you do it, how you write your initial query is the key to success. This is what gets your e-mail query opened and read. Then, this initial impression shapes the way your project is considered. SELL YOUR BOOK, SCRIPT OR COLUMN will help you write a powerful query letter, drawing on my experience of over four years of writing queries for over 900 clients, as well as writing my own successful queries leading to sales of over a dozen books and options on a dozen scripts and TV projects. The book includes articles on writing good query letters, guidelines to write your own letter, and samples of letters I have written that led to high responses and resulted in deals in different industries. The first section provides general tips on pitching your material, writing a good query, and formatting it for an e-mail query, which is different from sending a postal query. It includes articles about whether to directly contact the publishers, editors, producers, and production companies or seek an agent to represent you. The next sections feature guidelines for writing a query for books, articles, columns, and screenplays. The basic principles are the same from industry to industry. The last section includes some sample letters, organized by industry. You'll find this information invaluable in knowing how to best make that all important connection. Then, when you are ready to make those connections, you can send out your own query letter or use a query service, such as PublishersAndAgents or ScreenplayWritersConnection to help.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9780595450091"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "0595450091"
+            }
+          ],
+          "readingModes": {
+            "text": true,
+            "image": true
+          },
+          "pageCount": 90,
+          "printType": "BOOK",
+          "categories": [
+            "Business & Economics"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "0.0.1.0.preview.3",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=ibwPvnxHF6AC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=ibwPvnxHF6AC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com/books?id=ibwPvnxHF6AC&printsec=frontcover&dq=query&hl=&cd=14&source=gbs_api",
+          "infoLink": "http://books.google.com/books?id=ibwPvnxHF6AC&dq=query&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/Sell_Your_Book_Script_Or_Column.html?hl=&id=ibwPvnxHF6AC"
+        },
+        "saleInfo": {
+          "country": "US",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "US",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com/books/download/Sell_Your_Book_Script_Or_Column-sample-epub.acsm?id=ibwPvnxHF6AC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com/books/download/Sell_Your_Book_Script_Or_Column-sample-pdf.acsm?id=ibwPvnxHF6AC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=ibwPvnxHF6AC&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "However you do it, how you write your initial query is the key to success. This is what gets your e-mail query opened and read. Then, this initial impression shapes the way your project is considered."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "MjRr9Z8lxXkC",
+        "etag": "UlVEthPRwY8",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/MjRr9Z8lxXkC",
+        "volumeInfo": {
+          "title": "Exploratory Search",
+          "subtitle": "Beyond the Query-response Paradigm",
+          "authors": [
+            "Ryen White",
+            "Ryen W. White",
+            "Resa A. Roth"
+          ],
+          "publisher": "Morgan & Claypool Publishers",
+          "publishedDate": "2009",
+          "description": "As information becomes more ubiquitous and the demands that searchers have on search systems grow, there is a need to support search behaviors beyond simple lookup. Information seeking is the process or activity of attempting to obtain information in both human and technological contexts. Exploratory search describes an information-seeking problem context that is open-ended, persistent, and multifaceted, and information-seeking processes that are opportunistic, iterative, and multitactical. Exploratory searchers aim to solve complex problems and develop enhanced mental capacities. Exploratory search systems support this through symbiotic human-machine relationships that provide guidance in exploring unfamiliar information landscapes. Exploratory search has gained prominence in recent years. There is an increased interest from the information retrieval, information science, and human-computer interaction communities in moving beyond the traditional turn-taking interaction model supported by major Web search engines, and toward support for human intelligence amplification and information use. In this lecture, we introduce exploratory search, relate it to relevant extant research, outline the features of exploratory search systems, discuss the evaluation of these systems, and suggest some future directions for supporting exploratory search. Exploratory search is a new frontier in the search domain and is becoming increasingly important in shaping our future world. Table of Contents: Introduction / Defining Exploratory Search / Related Work / Features of Exploratory Search Systems / Evaluation of Exploratory Search Systems / Future Directions and concluding Remarks",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9781598297836"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "159829783X"
+            }
+          ],
+          "readingModes": {
+            "text": true,
+            "image": true
+          },
+          "pageCount": 98,
+          "printType": "BOOK",
+          "categories": [
+            "Computers"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "0.0.3.0.preview.3",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=MjRr9Z8lxXkC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=MjRr9Z8lxXkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com/books?id=MjRr9Z8lxXkC&printsec=frontcover&dq=query&hl=&cd=15&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=MjRr9Z8lxXkC&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=MjRr9Z8lxXkC"
+        },
+        "saleInfo": {
+          "country": "US",
+          "saleability": "FOR_SALE",
+          "isEbook": true,
+          "listPrice": {
+            "amount": 27,
+            "currencyCode": "USD"
+          },
+          "retailPrice": {
+            "amount": 27,
+            "currencyCode": "USD"
+          },
+          "buyLink": "https://play.google.com/store/books/details?id=MjRr9Z8lxXkC&rdid=book-MjRr9Z8lxXkC&rdot=1&source=gbs_api",
+          "offers": [
+            {
+              "finskyOfferType": 1,
+              "listPrice": {
+                "amountInMicros": 27000000,
+                "currencyCode": "USD"
+              },
+              "retailPrice": {
+                "amountInMicros": 27000000,
+                "currencyCode": "USD"
+              },
+              "giftable": true
+            }
+          ]
+        },
+        "accessInfo": {
+          "country": "US",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com/books/download/Exploratory_Search-sample-epub.acsm?id=MjRr9Z8lxXkC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com/books/download/Exploratory_Search-sample-pdf.acsm?id=MjRr9Z8lxXkC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=MjRr9Z8lxXkC&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "Exploratory search systems support this through symbiotic human-machine relationships that provide guidance in exploring unfamiliar information landscapes. Exploratory search has gained prominence in recent years."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "y9RP9bUKpLMC",
+        "etag": "ML8lUdX29fM",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/y9RP9bUKpLMC",
+        "volumeInfo": {
+          "title": "Quality-Driven Query Answering for Integrated Information Systems",
+          "authors": [
+            "Felix Naumann"
+          ],
+          "publisher": "Springer Science & Business Media",
+          "publishedDate": "2002-02-27",
+          "description": "The Internet and the World Wide Web (WWW) are becoming more and more important in our highly interconnected world as more and more data and information is made available for online access. Many individuals and governmental, commercial, cultural, and scientific organizations increasingly depend on information sources that can be accessed and queried over the Web. For example, accessing flight schedules or retrieving stock information has become common practice in todays world. When accessing this data, many people assume that the information accessed is accurate and that the data source can be accessed reliably. These two examples clearly demonstrate that not only the information content is important, the information about the quality of the data becomes an even more crucial and critical aspect for individuals and organizations when they make plans or take decisions based on the results of their queries. More precisely, having access to information of known quality becomes critical for the well-being and indeed for the functioning of modern industrialized societies. Surprisingly, despite the urgent need for clear concepts and techniques to judge and value quality and for technology to use such (meta) information, very few scientific results are known and available. Few approaches are known to use quality measures for accessing and querying information over the Web. Only a limited number of products on the IT market address this burning problem.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9783540433491"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "354043349X"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": true
+          },
+          "pageCount": 164,
+          "printType": "BOOK",
+          "categories": [
+            "Computers"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "preview-1.0.0",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=y9RP9bUKpLMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=y9RP9bUKpLMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com/books?id=y9RP9bUKpLMC&printsec=frontcover&dq=query&hl=&cd=16&source=gbs_api",
+          "infoLink": "http://books.google.com/books?id=y9RP9bUKpLMC&dq=query&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/Quality_Driven_Query_Answering_for_Integ.html?hl=&id=y9RP9bUKpLMC"
+        },
+        "saleInfo": {
+          "country": "US",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "US",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com/books/download/Quality_Driven_Query_Answering_for_Integ-sample-pdf.acsm?id=y9RP9bUKpLMC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=y9RP9bUKpLMC&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "The Internet and the World Wide Web (WWW) are becoming more and more important in our highly interconnected world as more and more data and information is made available for online access."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "NoVBxQEACAAJ",
+        "etag": "LZViOwgH4bQ",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/NoVBxQEACAAJ",
+        "volumeInfo": {
+          "title": "Learn T-SQL Querying",
+          "authors": [
+            "Pedro Lopes",
+            "Pam Lahoud"
+          ],
+          "publishedDate": "2019-05-03",
+          "description": "Troubleshoot query performance issues, identify anti-patterns in code, and write efficient T-SQL queries Key Features Discover T-SQL functionalities and services that help you interact with relational databases Understand the roles, tasks and responsibilities of a T-SQL developer Explore solutions for carrying out database querying tasks, database administration, and troubleshooting Book Description Transact-SQL (T-SQL) is Microsoft's proprietary extension to the SQL language that is used with Microsoft SQL Server and Azure SQL Database. This book will be a useful guide to learning the art of writing efficient T-SQL code in modern SQL Server versions, as well as the Azure SQL Database. The book will get you started with query processing fundamentals to help you write powerful, performant T-SQL queries. You will then focus on query execution plans and learn how to leverage them for troubleshooting. In the later chapters, you will learn how to identify various T-SQL patterns and anti-patterns. This will help you analyze execution plans to gain insights into current performance, and determine whether or not a query is scalable. You will also learn to build diagnostic queries using dynamic management views (DMVs) and dynamic management functions (DMFs) to address various challenges in T-SQL execution. Next, you will study how to leverage the built-in tools of SQL Server to shorten the time taken to address query performance and scalability issues. In the concluding chapters, the book will guide you through implementing various features, such as Extended Events, Query Store, and Query Tuning Assistant using hands-on examples. By the end of this book, you will have the skills to determine query performance bottlenecks, avoid pitfalls, and discover the anti-patterns in use. Foreword by Conor Cunningham, Partner Architect - SQL Server and Azure SQL - Microsoft What you will learn Use Query Store to understand and easily change query performance Recognize and eliminate bottlenecks that lead to slow performance Deploy quick fixes and long-term solutions to improve query performance Implement best practices to minimize performance risk using T-SQL Achieve optimal performance by ensuring careful query and index design Use the latest performance optimization features in SQL Server 2017 and SQL Server 2019 Protect query performance during upgrades to newer versions of SQL Server Who this book is for This book is for database administrators, database developers, data analysts, data scientists, and T-SQL practitioners who want to get started with writing T-SQL code and troubleshooting query performance issues, through the help of practical examples. Previous knowledge of T-SQL querying is not required to get started on this book.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_10",
+              "identifier": "1789348811"
+            },
+            {
+              "type": "ISBN_13",
+              "identifier": "9781789348811"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": false
+          },
+          "pageCount": 484,
+          "printType": "BOOK",
+          "categories": [
+            "Computers"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "preview-1.0.0",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=NoVBxQEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=NoVBxQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com/books?id=NoVBxQEACAAJ&dq=query&hl=&cd=17&source=gbs_api",
+          "infoLink": "http://books.google.com/books?id=NoVBxQEACAAJ&dq=query&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/Learn_T_SQL_Querying.html?hl=&id=NoVBxQEACAAJ"
+        },
+        "saleInfo": {
+          "country": "US",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "US",
+          "viewability": "NO_PAGES",
+          "embeddable": false,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=NoVBxQEACAAJ&hl=&source=gbs_api",
+          "accessViewStatus": "NONE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "This book will be a useful guide to learning the art of writing efficient T-SQL code in modern SQL Server versions, as well as the Azure SQL Database."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "jmpYAAAAYAAJ",
+        "etag": "oHyCIE6I3tc",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/jmpYAAAAYAAJ",
+        "volumeInfo": {
+          "title": "Query Management Facility",
+          "subtitle": "Learner's Guide",
+          "publishedDate": "1989",
+          "industryIdentifiers": [
+            {
+              "type": "OTHER",
+              "identifier": "PSU:000031450065"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": false
+          },
+          "pageCount": 242,
+          "printType": "BOOK",
+          "categories": [
+            "Computer software"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "0.6.2.0.preview.0",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=jmpYAAAAYAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=jmpYAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com/books?id=jmpYAAAAYAAJ&q=query&dq=query&hl=&cd=18&source=gbs_api",
+          "infoLink": "http://books.google.com/books?id=jmpYAAAAYAAJ&dq=query&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/Query_Management_Facility.html?hl=&id=jmpYAAAAYAAJ"
+        },
+        "saleInfo": {
+          "country": "US",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "US",
+          "viewability": "NO_PAGES",
+          "embeddable": false,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=jmpYAAAAYAAJ&hl=&source=gbs_api",
+          "accessViewStatus": "NONE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "General \u003cb\u003eQuery\u003c/b\u003e Tasks 80 lnterrupting a \u003cb\u003eQuery\u003c/b\u003e 80 The Governor lnterrupt 81 Viewing the Results of a \u003cb\u003eQuery\u003c/b\u003e— The Report 81 Scrolling the Report 83 Saving a \u003cb\u003eQuery\u003c/b\u003e 83 Listing Your Saved \u003cb\u003eQueries\u003c/b\u003e 84 Displaying a Saved \u003cb\u003eQuery\u003c/b\u003e 84 Converting a&nbsp;..."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "9_1sDwAAQBAJ",
+        "etag": "ZCRc4QTDWLA",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/9_1sDwAAQBAJ",
+        "volumeInfo": {
+          "title": "SQL Server 2017 Query Performance Tuning",
+          "subtitle": "Troubleshoot and Optimize Query Performance",
+          "authors": [
+            "Grant Fritchey"
+          ],
+          "publisher": "Apress",
+          "publishedDate": "2018-09-03",
+          "description": "Identify and fix causes of poor performance. You will learn Query Store, adaptive execution plans, and automated tuning on the Microsoft Azure SQL Database platform. Anyone responsible for writing or creating T-SQL queries will find valuable the insight into bottlenecks, including how to recognize them and eliminate them. This book covers the latest in performance optimization features and techniques and is current with SQL Server 2017. If your queries are not running fast enough and you’re tired of phone calls from frustrated users, then this book is the answer to your performance problems. SQL Server 2017 Query Performance Tuning is about more than quick tips and fixes. You’ll learn to be proactive in establishing performance baselines using tools such as Performance Monitor and Extended Events. You’ll recognize bottlenecks and defuse them before the phone rings. You’ll learn some quick solutions too, but emphasis is on designing for performance and getting it right. The goal is to head off trouble before it occurs. What You'll Learn Use Query Store to understand and easily change query performance Recognize and eliminate bottlenecks leading to slow performance Deploy quick fixes when needed, following up with long-term solutions Implement best practices in T-SQL to minimize performance risk Design in the performance that you need through careful query and index design Utilize the latest performance optimization features in SQL Server 2017 Protect query performance during upgrades to the newer versions of SQL Server Who This Book Is For Developers and database administrators with responsibility for application performance in SQL Server environments. Anyone responsible for writing or creating T-SQL queries will find valuable the insight into bottlenecks, including how to recognize them and eliminate them.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9781484238882"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "1484238885"
+            }
+          ],
+          "readingModes": {
+            "text": true,
+            "image": true
+          },
+          "pageCount": 947,
+          "printType": "BOOK",
+          "categories": [
+            "Computers"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": true,
+          "contentVersion": "1.1.2.0.preview.3",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=9_1sDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=9_1sDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com/books?id=9_1sDwAAQBAJ&printsec=frontcover&dq=query&hl=&cd=19&source=gbs_api",
+          "infoLink": "http://books.google.com/books?id=9_1sDwAAQBAJ&dq=query&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/SQL_Server_2017_Query_Performance_Tuning.html?hl=&id=9_1sDwAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "US",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "US",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com/books/download/SQL_Server_2017_Query_Performance_Tuning-sample-epub.acsm?id=9_1sDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com/books/download/SQL_Server_2017_Query_Performance_Tuning-sample-pdf.acsm?id=9_1sDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=9_1sDwAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "This book covers the latest in performance optimization features and techniques and is current with SQL Server 2017."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "iPBZDwAAQBAJ",
+        "etag": "KOH+Mrz+NFU",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/iPBZDwAAQBAJ",
+        "volumeInfo": {
+          "title": "PostgreSQL 10 High Performance",
+          "subtitle": "Expert techniques for query optimization, high availability, and efficient database maintenance",
+          "authors": [
+            "Enrico Pirozzi"
+          ],
+          "publisher": "Packt Publishing Ltd",
+          "publishedDate": "2018-04-30",
+          "description": "PostgreSQL is increasingly utilized in all kind of applications, starting from desktop to web and mobile applications. In this book, you will find the best ways to design, monitor and maintain your PostgreSQL solution, with suggestions and tips for high performance, troubleshooting and high availability.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9781788472456"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "1788472454"
+            }
+          ],
+          "readingModes": {
+            "text": true,
+            "image": true
+          },
+          "pageCount": 508,
+          "printType": "BOOK",
+          "categories": [
+            "Computers"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": true,
+          "contentVersion": "1.3.3.0.preview.3",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=iPBZDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=iPBZDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com/books?id=iPBZDwAAQBAJ&printsec=frontcover&dq=query&hl=&cd=20&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=iPBZDwAAQBAJ&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=iPBZDwAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "US",
+          "saleability": "FOR_SALE",
+          "isEbook": true,
+          "listPrice": {
+            "amount": 39.99,
+            "currencyCode": "USD"
+          },
+          "retailPrice": {
+            "amount": 31.19,
+            "currencyCode": "USD"
+          },
+          "buyLink": "https://play.google.com/store/books/details?id=iPBZDwAAQBAJ&rdid=book-iPBZDwAAQBAJ&rdot=1&source=gbs_api",
+          "offers": [
+            {
+              "finskyOfferType": 1,
+              "listPrice": {
+                "amountInMicros": 39990000,
+                "currencyCode": "USD"
+              },
+              "retailPrice": {
+                "amountInMicros": 31190000,
+                "currencyCode": "USD"
+              },
+              "giftable": true
+            }
+          ]
+        },
+        "accessInfo": {
+          "country": "US",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": true
+          },
+          "pdf": {
+            "isAvailable": true
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=iPBZDwAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "By the end of this book, you will have all the knowledge you need to design, run, and manage your PostgreSQL solution while ensuring high performance and high availability What you will learn Learn best practices for scaling PostgreSQL 10 ..."
+        }
+      }
+    ]
+  }
