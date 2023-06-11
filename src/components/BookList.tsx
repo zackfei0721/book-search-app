@@ -7,6 +7,7 @@ const BookList: React.FC = () => {
   const [books, setBooks] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [successMessage, setSuccessMessage] = useState("");
 
   useEffect(() => {
     const fetchData = async () => {
@@ -32,20 +33,51 @@ const BookList: React.FC = () => {
 
   const handleAddToWishlist = (book: any) => {
     dispatch(addBook(book));
+    setSuccessMessage(`${book.volumeInfo.title} added to wishlist!`);
+
+    // clear the success message after 3 seconds
+    setTimeout(() => {
+      setSuccessMessage("");
+    }, 3000);
   };
 
-  if (isLoading) return <div>Loading...</div>;
+  if (isLoading) {
+    return (
+      <div
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            height: '100vh',
+            fontSize: '2rem',
+            color: 'black',}
+          }>Loading...</div>
+    );
+}
   if (error) return <div>{error}</div>;
 
   return (
     <div>
       <h2>BookList</h2>
+      {successMessage && <p style={{color: "green"}}>{successMessage}</p>}
       {books.map((book: any, index: number) => (
-        <div key={index} style={{border: "1px solid black", padding: "10px", margin: "10px"}}>
-          <h3 onClick={() => handleAddToWishlist(book.volumeInfo.title)}>{book.volumeInfo.title}</h3>
-          <img src={book.volumeInfo.imageLinks?.thumbnail} alt={book.volumeInfo.title} />
-          <p>{book.volumeInfo.description}</p>
-          <button onClick={() => handleAddToWishlist(book)}>Add to wishlist</button>
+        <div  key={index} 
+              style={{border: "1px solid black", borderRadius: '5px' ,padding: "10px", margin: "10px"}}>
+          <h3 
+              onClick={() => handleAddToWishlist(book.volumeInfo.title)}>
+                {book.volumeInfo.title}
+          </h3>
+          <img 
+              src={book.volumeInfo.imageLinks?.thumbnail}
+              alt={book.volumeInfo.title} />
+          <p> 
+            {book.volumeInfo.description}
+          </p>
+          <button 
+              style={{border: "1px solid black", borderRadius: '5px'}} 
+              onClick={() => handleAddToWishlist(book)}>
+                Add to wishlist
+          </button>
         </div>
       ))}
     </div>

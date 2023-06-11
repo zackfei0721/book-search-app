@@ -17,8 +17,18 @@ const Wishlist: React.FC = () => {
       <h1>My Wishlist</h1>
       {wishlist.length > 0 ? (
         wishlist.map((book: Book) => (
-          <div key={book.id} style={{border: "1px solid black", padding: "10px", margin: "10px"}}>
-            <p>{book.volumeInfo.title}</p>
+          <div 
+            key={book.id} 
+            style={{border: "1px solid black", borderRadius: '5px', padding: "10px", margin: "10px"}}>
+            <p>
+              {book.volumeInfo.title}
+            </p>
+            <img 
+              src={book.volumeInfo.imageLinks?.thumbnail}
+              alt={book.volumeInfo.title} />
+            <p> 
+              {book.volumeInfo.description}
+            </p>
             <button onClick={() => handleRemoveFromWishlist(book.id)}>Remove from wishlist</button>
           </div>
         ))
