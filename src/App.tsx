@@ -5,6 +5,7 @@ import { store } from './redux/store';
 import NavBar from './components/NavBar';
 import BookList from './components/BookList';
 import Wishlist from './components/WishList';
+import SearchPage from './components/SearchPage';
 
 const App: React.FC = () => {
   return (
@@ -13,6 +14,7 @@ const App: React.FC = () => {
         <NavBar />
         <Routes>
           <Route path="/wishlist" element={<Wishlist />} />
+          <Route path="/search" element={<SearchPage />} />
           <Route path="/" element={<BookList />} />
         </Routes>
       </Router>
