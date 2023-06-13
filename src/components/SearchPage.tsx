@@ -80,7 +80,7 @@ const SearchPage: React.FC = () => {
       {books.map((book: any, index: number) => (
         <div key={index} style={{border: "1px solid black", borderRadius: '5px' ,padding: "10px", margin: "10px"}}>
           {addedBookId === book.id && <p style={{color: "green"}}>{successMessage}</p>}
-          <h3 onClick={() => handleAddToWishlist(book.volumeInfo.title)}>
+          <h3>
             {book.volumeInfo.title}
           </h3>
           <img src={book.volumeInfo.imageLinks?.thumbnail} alt={book.volumeInfo.title} />
