@@ -9,6 +9,7 @@ const BookList: React.FC = () => {
   const [error, setError] = useState<string | null>(null);
   const [successMessage, setSuccessMessage] = useState("");
   const [query, setQuery] = useState("Reactjs");
+  const [addedBookId, setAddedBookId] = useState<string | null>(null);
   const handleQueryChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setQuery(e.target.value);
   };
@@ -34,7 +35,7 @@ const BookList: React.FC = () => {
       if (error instanceof Error) {
         setError(error.message);
       } else {
-        setError(String(error)); // convert the error to string if it's not an Error instance
+        setError(String(error));
       }
     } finally {
       setIsLoading(false);
@@ -43,11 +44,14 @@ const BookList: React.FC = () => {
 
   const handleAddToWishlist = (book: any) => {
     dispatch(addBook(book));
+    setAddedBookId(book.id); // make success message only display on the selected book
     setSuccessMessage(`${book.volumeInfo.title} added to wishlist!`);
+    
 
-    // clear the success message after 3 seconds
+    // clear the success message & added book id after 3 seconds
     setTimeout(() => {
       setSuccessMessage("");
+      setAddedBookId(null);
     }, 3000);
   };
 
@@ -60,7 +64,7 @@ const BookList: React.FC = () => {
             alignItems: 'center',
             height: '100vh',
             fontSize: '2rem',
-            color: 'black',}
+            color: 'black'}
           }>Loading...</div>
     );
 }
@@ -68,14 +72,12 @@ const BookList: React.FC = () => {
 
   return (
     <div>
-      <h2>BookList</h2>
-      {successMessage && <p style={{color: "green"}}>{successMessage}</p>}
       {books.map((book: any, index: number) => (
         <div  key={index} 
               style={{border: "1px solid black", borderRadius: '5px' ,padding: "10px", margin: "10px"}}>
-          <h3 
-              onClick={() => handleAddToWishlist(book.volumeInfo.title)}>
-                {book.volumeInfo.title}
+          {addedBookId === book.id && <p style={{color: "green"}}>{successMessage}</p>}
+          <h3>
+              {book.volumeInfo.title}
           </h3>
           <img 
               src={book.volumeInfo.imageLinks?.thumbnail}
