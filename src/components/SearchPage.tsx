@@ -10,6 +10,7 @@ const SearchPage: React.FC = () => {
   const [error, setError] = useState<string | null>(null);
   const [successMessage, setSuccessMessage] = useState("");
   const [query, setQuery] = useState("");
+  const [addedBookId, setAddedBookId] = useState<string | null>(null);
 
   const handleQueryChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setQuery(e.target.value);
@@ -25,9 +26,7 @@ const SearchPage: React.FC = () => {
       setIsLoading(false);
       return;
     }
-
     setIsLoading(true);
-
     try {
       const url = `https://www.googleapis.com/books/v1/volumes?q=${encodeURIComponent(query)}&key=${process.env.REACT_APP_GOOGLE_BOOKS_API_KEY}`;
       const response = await fetch(url);
@@ -38,7 +37,7 @@ const SearchPage: React.FC = () => {
       if (error instanceof Error) {
         setError(error.message);
       } else {
-        setError(String(error)); // convert the error to string if it's not an Error instance
+        setError(String(error));
       }
     } finally {
       setIsLoading(false);
@@ -48,10 +47,12 @@ const SearchPage: React.FC = () => {
   const handleAddToWishlist = (book: any) => {
     dispatch(addBook(book));
     setSuccessMessage(`${book.volumeInfo.title} added to wishlist!`);
+    setAddedBookId(book.id);
 
     // clear the success message after 3 seconds
     setTimeout(() => {
       setSuccessMessage("");
+      setAddedBookId(book.id);
     }, 3000);
   };
 
@@ -66,14 +67,19 @@ const SearchPage: React.FC = () => {
       <h2 style={{textAlign: 'center'}}>Search Page</h2>
       <form style={{textAlign: 'center'}}
             onSubmit={handleSearch}>
-        <input type='text' value={query} onChange={handleQueryChange} />
+        <input 
+            type='text' 
+            value={query} 
+            onChange={handleQueryChange} />
         <button 
             style={{marginLeft: "10px", borderRadius: '5px'}}
-            type='submit'>Search</button>
+            type='submit'>
+              Search
+        </button>
       </form>
-      {successMessage && <p style={{color: "green"}}>{successMessage}</p>}
       {books.map((book: any, index: number) => (
         <div key={index} style={{border: "1px solid black", borderRadius: '5px' ,padding: "10px", margin: "10px"}}>
+          {addedBookId === book.id && <p style={{color: "green"}}>{successMessage}</p>}
           <h3 onClick={() => handleAddToWishlist(book.volumeInfo.title)}>
             {book.volumeInfo.title}
           </h3>

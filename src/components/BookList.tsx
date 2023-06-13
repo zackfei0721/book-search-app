@@ -20,7 +20,7 @@ const BookList: React.FC = () => {
 
   const fetchData = async () => {
     if(!query) {
-      setIsLoading(false);
+      setIsLoading(false); // prevent infinite loading screen
       return;
     }
     try {
