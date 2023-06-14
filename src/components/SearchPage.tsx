@@ -1,7 +1,7 @@
-// SearchPage.tsx
 import React, { useEffect, useState } from 'react';
 import { useAppDispatch } from '../redux/store';
 import { addBook } from '../redux/wishlistSlice';
+import Pagination from '@mui/material/Pagination'; // imported MUI for pagination
 
 const SearchPage: React.FC = () => {
   const dispatch = useAppDispatch();
@@ -11,6 +11,20 @@ const SearchPage: React.FC = () => {
   const [successMessage, setSuccessMessage] = useState("");
   const [query, setQuery] = useState("");
   const [addedBookId, setAddedBookId] = useState<string | null>(null);
+
+  // Pagination
+  const [currentPage, setCurrentPage] = useState(1);
+  const [booksPerPage, setBooksPerPage] = useState(10);
+  const indexOfLastBook = currentPage * booksPerPage;
+  const indexOfFirstBook = indexOfLastBook - booksPerPage;
+  const currentBooks = books.slice(indexOfFirstBook, indexOfLastBook);
+  const [totalResults, setTotalResults] = useState(0);
+
+  const handlePageChange = (event: React.ChangeEvent<unknown>, value: number) => {
+    console.log(event);
+    setCurrentPage(value);
+    fetchData();
+  };
 
   const handleQueryChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setQuery(e.target.value);
@@ -22,17 +36,19 @@ const SearchPage: React.FC = () => {
   };
 
   const fetchData = async () => {
-    if(!query) {
+    if (!query) {
       setIsLoading(false);
       return;
     }
     setIsLoading(true);
     try {
-      const url = `https://www.googleapis.com/books/v1/volumes?q=${encodeURIComponent(query)}&key=${process.env.REACT_APP_GOOGLE_BOOKS_API_KEY}`;
+      const startIndex = (currentPage - 1) * booksPerPage;
+      const url = `https://www.googleapis.com/books/v1/volumes?q=${encodeURIComponent(query)}&key=${process.env.REACT_APP_GOOGLE_BOOKS_API_KEY}&startIndex=${startIndex}&maxResults=${booksPerPage}`;
       const response = await fetch(url);
       if (!response.ok) throw new Error('HTTP error ' + response.status);
       const data = await response.json();
       setBooks(data.items);
+      setTotalResults(data.totalItems);
     } catch (error) {
       if (error instanceof Error) {
         setError(error.message);
@@ -57,7 +73,17 @@ const SearchPage: React.FC = () => {
   };
 
   if (isLoading) {
-    return <div>Loading...</div>
+    return <div
+              style={{
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center',
+                height: '100vh',
+                fontSize: '2rem',
+                color: 'black'}
+              }>
+                Loading...
+            </div>
   }
 
   if (error) return <div>{error}</div>;
@@ -94,6 +120,8 @@ const SearchPage: React.FC = () => {
           </button>
         </div>
       ))}
+      {/*true && console.log(totalResults, booksPerPage)*/}
+      <Pagination count={Math.ceil(totalResults / booksPerPage)} page={currentPage} onChange={handlePageChange} />
     </div>
   );
 };
