@@ -24,12 +24,11 @@ const SearchPage: React.FC = () => {
 
   useEffect(() => {
     fetchData();
-  }, [currentPage]);
+  }, [currentPage, query]);
 
   const handlePageChange = (event: React.ChangeEvent<unknown>, value: number) => {
     console.log(event);
     setCurrentPage(value);
-    fetchData();
   };
 
   const handleQueryChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -51,13 +50,22 @@ const SearchPage: React.FC = () => {
       const startIndex = (currentPage - 1) * booksPerPage;
       const url = `https://www.googleapis.com/books/v1/volumes?q=${encodeURIComponent(query)}&startIndex=${startIndex}&maxResults=${booksPerPage}`;
       const response = await fetch(url);
+      console.log("url: ", url);
+      console.log("totalResults: ", totalResults);
       if (!response.ok) throw new Error('HTTP error ' + response.status);
       const data = await response.json();
-      setBooks(data.items);
-      //setTotalResults(data.totalItems);
-
+      if (data.items) {
+        setBooks(data.items);
+      } else {
+        setBooks([]); // Set books to an empty array if no results
+      }
+      
       if(initialTotalResults === 0) {
         setInitialTotalResults(data.totalItems);
+        setTotalResults(data.totalItems);  // Set totalResults here
+      }
+      else {
+        setTotalResults(initialTotalResults); // and here
       }
     } catch (error) {
       if (error instanceof Error) {
@@ -133,7 +141,7 @@ const SearchPage: React.FC = () => {
       {/*true && console.log(totalResults, booksPerPage)*/}
       <Pagination 
         style={{display: 'flex', justifyContent: 'center', margin: '10px'}}
-        count={Math.ceil(totalResults / booksPerPage)} 
+        count={Math.min(Math.ceil(totalResults / booksPerPage), 50)} 
         page={currentPage} 
         onChange={handlePageChange}
        />
