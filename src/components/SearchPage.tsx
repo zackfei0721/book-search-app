@@ -19,6 +19,12 @@ const SearchPage: React.FC = () => {
   const indexOfFirstBook = indexOfLastBook - booksPerPage;
   const currentBooks = books.slice(indexOfFirstBook, indexOfLastBook);
   const [totalResults, setTotalResults] = useState(0);
+  const [initialTotalResults, setInitialTotalResults] = useState(0); // Prevent total page num from changing when changing page
+
+
+  useEffect(() => {
+    fetchData();
+  }, [currentPage]);
 
   const handlePageChange = (event: React.ChangeEvent<unknown>, value: number) => {
     console.log(event);
@@ -43,12 +49,16 @@ const SearchPage: React.FC = () => {
     setIsLoading(true);
     try {
       const startIndex = (currentPage - 1) * booksPerPage;
-      const url = `https://www.googleapis.com/books/v1/volumes?q=${encodeURIComponent(query)}&key=${process.env.REACT_APP_GOOGLE_BOOKS_API_KEY}&startIndex=${startIndex}&maxResults=${booksPerPage}`;
+      const url = `https://www.googleapis.com/books/v1/volumes?q=${encodeURIComponent(query)}&startIndex=${startIndex}&maxResults=${booksPerPage}`;
       const response = await fetch(url);
       if (!response.ok) throw new Error('HTTP error ' + response.status);
       const data = await response.json();
       setBooks(data.items);
-      setTotalResults(data.totalItems);
+      //setTotalResults(data.totalItems);
+
+      if(initialTotalResults === 0) {
+        setInitialTotalResults(data.totalItems);
+      }
     } catch (error) {
       if (error instanceof Error) {
         setError(error.message);
@@ -121,7 +131,12 @@ const SearchPage: React.FC = () => {
         </div>
       ))}
       {/*true && console.log(totalResults, booksPerPage)*/}
-      <Pagination count={Math.ceil(totalResults / booksPerPage)} page={currentPage} onChange={handlePageChange} />
+      <Pagination 
+        style={{display: 'flex', justifyContent: 'center', margin: '10px'}}
+        count={Math.ceil(totalResults / booksPerPage)} 
+        page={currentPage} 
+        onChange={handlePageChange}
+       />
     </div>
   );
 };
