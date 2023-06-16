@@ -2,6 +2,7 @@ import React, { useEffect, useState, useRef } from 'react';
 import { useAppDispatch } from '../redux/store';
 import { addBook } from '../redux/wishlistSlice';
 import Pagination from '@mui/material/Pagination'; // imported MUI for pagination
+import AutoCompleteDropdown from './AutoRef'; // imported AutoCompleteDropdown from AutoRef.tsx
 
 const SearchPage: React.FC = () => {
   const dispatch = useAppDispatch();
@@ -170,31 +171,11 @@ const SearchPage: React.FC = () => {
         />
         <button style={{ marginLeft: "10px", borderRadius: '5px' }} type='submit'>Search</button>
         {displayAutoComplete && autoCompleteBooks.length > 0 && (
-          <div 
-            style={{ position: "relative", 
-                     backgroundColor: 'white', 
-                     zIndex: 1, 
-                     width: '100%',
-                     left: '50%',
-                     transform: 'translateX(-50%)' }}>
-            {autoCompleteBooks.map((book: any, index: number) => (
-              <div
-                key={index}
-                onClick={() => {
-                  setQuery(book.volumeInfo.title);
-                  setDisplayAutoComplete(false);
-                }}
-                style={{
-                  background: index === selectedSuggestion ? "#ddd" : undefined,
-                  padding: "10px",
-                  cursor: "pointer",
-                }}
-              >
-                {book.volumeInfo.title}
-              </div>
-            ))}
-          </div>
-        )}
+  <AutoCompleteDropdown 
+    autoCompleteBooks={autoCompleteBooks} 
+    setQuery={setQuery} 
+    setDisplayAutoComplete={setDisplayAutoComplete} />
+)}
       </form>
     </div>
       {books.map((book: any, index: number) => (
