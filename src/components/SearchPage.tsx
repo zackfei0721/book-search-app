@@ -1,8 +1,9 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { useAppDispatch } from '../redux/store';
 import { addBook } from '../redux/wishlistSlice';
-import Pagination from '@mui/material/Pagination'; // imported MUI for pagination
-import AutoCompleteDropdown from './AutoRef'; // imported AutoCompleteDropdown from AutoRef.tsx
+import Pagination from '@mui/material/Pagination';
+import AutoCompleteDropdown from './AutoRef';
+
 
 const SearchPage: React.FC = () => {
   const dispatch = useAppDispatch();
